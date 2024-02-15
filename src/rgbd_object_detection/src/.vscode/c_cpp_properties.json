@@ -1,0 +1,52 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/edward/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/edward/catkin_ws/src/apriltag_ros/apriltag_ros/include/**",
+        "/home/edward/catkin_ws/src/vision_opencv/cv_bridge/include/**",
+        "/home/edward/catkin_ws/src/DynamixelSDK/ros/dynamixel_sdk/include/**",
+        "/home/edward/catkin_ws/src/geometry/eigen_conversions/include/**",
+        "/home/edward/catkin_ws/src/fast_gicp/include/**",
+        "/home/edward/catkin_ws/src/hdl_global_localization/include/**",
+        "/home/edward/catkin_ws/src/hdl_localization/include/**",
+        "/home/edward/catkin_ws/src/hdl_people_tracking/include/**",
+        "/home/edward/catkin_ws/src/vision_opencv/image_geometry/include/**",
+        "/home/edward/catkin_ws/src/interactive_markers/include/**",
+        "/home/edward/catkin_ws/src/geometry/kdl_conversions/include/**",
+        "/home/edward/catkin_ws/src/ros_comm/utilities/message_filters/include/**",
+        "/home/edward/catkin_ws/src/ndt_omp/include/**",
+        "/home/edward/catkin_ws/src/perception_pcl/pcl_conversions/include/**",
+        "/home/edward/catkin_ws/src/perception_pcl/pcl_ros/include/**",
+        "/home/edward/catkin_ws/src/pointcloud_to_laserscan/include/**",
+        "/home/edward/catkin_ws/src/rgbd_object_detection/include/**",
+        "/home/edward/catkin_ws/src/ros_comm/tools/rosbag/include/**",
+        "/home/edward/catkin_ws/src/ros_comm/tools/rosbag_storage/include/**",
+        "/home/edward/catkin_ws/src/ros_comm/clients/roscpp/include/**",
+        "/home/edward/catkin_ws/src/ros_comm/utilities/roslz4/include/**",
+        "/home/edward/catkin_ws/src/ros_comm/tools/rostest/include/**",
+        "/home/edward/catkin_ws/src/common_msgs/sensor_msgs/include/**",
+        "/home/edward/catkin_ws/src/geometry/tf/include/**",
+        "/home/edward/catkin_ws/src/geometry/tf_conversions/include/**",
+        "/home/edward/catkin_ws/src/ros_comm/tools/topic_tools/include/**",
+        "/home/edward/catkin_ws/src/turtlebot3_simulations/turtlebot3_fake/include/**",
+        "/home/edward/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+        "/home/edward/catkin_ws/src/turtlebot3/turtlebot3_slam/include/**",
+        "/home/edward/catkin_ws/src/turtlebot3_slam_navigation/include/**",
+        "/home/edward/catkin_ws/src/ros_comm/utilities/xmlrpcpp/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

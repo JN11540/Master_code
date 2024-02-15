@@ -1,0 +1,2 @@
+set(test_rostopic_MESSAGE_FILES "/home/edward/catkin_ws/src/ros_comm/test/test_rostopic/msg/Arrays.msg;/home/edward/catkin_ws/src/ros_comm/test/test_rostopic/msg/ArrayVal.msg;/home/edward/catkin_ws/src/ros_comm/test/test_rostopic/msg/Embed.msg;/home/edward/catkin_ws/src/ros_comm/test/test_rostopic/msg/Floats.msg;/home/edward/catkin_ws/src/ros_comm/test/test_rostopic/msg/Simple.msg;/home/edward/catkin_ws/src/ros_comm/test/test_rostopic/msg/TVals.msg;/home/edward/catkin_ws/src/ros_comm/test/test_rostopic/msg/Val.msg")
+set(test_rostopic_SERVICE_FILES "")

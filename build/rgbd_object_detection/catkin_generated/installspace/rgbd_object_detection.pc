@@ -1,0 +1,8 @@
+prefix=/home/edward/catkin_ws/install
+
+Name: rgbd_object_detection
+Description: Description of rgbd_object_detection
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: cv_bridge eigen_conversions image_transport message_filters message_runtime roscpp rospy sensor_msgs std_msgs tf tf2_ros interactive_markers

@@ -1,0 +1,8 @@
+prefix=/home/edward/catkin_ws/devel
+
+Name: roslz4
+Description: Description of roslz4
+Version: 1.15.14
+Cflags: -I/home/edward/catkin_ws/src/ros_comm/utilities/roslz4/include -I/usr/include
+Libs: -L${prefix}/lib -lroslz4 /usr/lib/x86_64-linux-gnu/liblz4.so
+Requires: 

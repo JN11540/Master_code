@@ -1,0 +1,8 @@
+prefix=/home/edward/catkin_ws/install
+
+Name: test_rospy
+Description: Description of test_rospy
+Version: 1.15.14
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/edward/catkin_ws/devel
+
+Name: rostopic
+Description: Description of rostopic
+Version: 1.15.14
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

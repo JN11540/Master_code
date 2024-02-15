@@ -1,0 +1,6 @@
+<launch>
+  <arg name="AllObjectGroundTruth" default="GroundTruth.yaml" doc="Specify a yaml param file, e.g.: tag_poses.yaml"/>
+  <node pkg="rgbd_object_detection" type="GroundTruth.py" name="GroundTruth" output="screen">
+    <param name="AllObjectGroundTruth" value="$(find rgbd_object_detection)/config/$(arg AllObjectGroundTruth)"/>
+  </node>
+</launch>

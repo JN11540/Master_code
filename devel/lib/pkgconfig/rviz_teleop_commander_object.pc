@@ -1,0 +1,8 @@
+prefix=/home/edward/catkin_ws/devel
+
+Name: rviz_teleop_commander_object
+Description: Description of rviz_teleop_commander_object
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

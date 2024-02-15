@@ -1,0 +1,8 @@
+prefix=/home/edward/catkin_ws/install
+
+Name: jsk_rqt_plugins
+Description: Description of jsk_rqt_plugins
+Version: 2.1.8
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

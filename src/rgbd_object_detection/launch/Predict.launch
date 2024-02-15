@@ -1,0 +1,6 @@
+<launch>
+  <arg name="AllObjectPredict" default="Predict.yaml" doc="Specify a yaml param file, e.g.: tag_poses.yaml"/>
+  <node pkg="rgbd_object_detection" type="Predict.py" name="Predict" output="screen">
+    <param name="AllObjectPredict" value="$(find rgbd_object_detection)/config/$(arg AllObjectPredict)"/>
+  </node>
+</launch>

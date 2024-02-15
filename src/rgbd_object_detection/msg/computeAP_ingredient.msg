@@ -1,0 +1,3 @@
+float64 iou
+float64 confidence
+bool classification

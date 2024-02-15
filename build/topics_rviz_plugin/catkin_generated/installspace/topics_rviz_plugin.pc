@@ -1,0 +1,8 @@
+prefix=/home/edward/catkin_ws/install
+
+Name: topics_rviz_plugin
+Description: Description of topics_rviz_plugin
+Version: 0.1.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -ltopics_rviz_plugin_display_topics -ltopics_rviz_plugin_topic_info
+Requires: roscpp rqt_gui rviz

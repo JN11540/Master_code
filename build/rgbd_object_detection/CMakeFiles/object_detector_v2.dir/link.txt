@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC    -O0 -Wall -g -ggdb   -shared -Wl,-soname,libobject_detector_v2.so -o /home/edward/catkin_ws/devel/lib/libobject_detector_v2.so CMakeFiles/object_detector_v2.dir/src/rgbd_object_detection/object_detector_v2.cpp.o CMakeFiles/object_detector_v2.dir/src/rgbd_object_detection/pc_utils.cpp.o 

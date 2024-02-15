@@ -1,0 +1,8 @@
+prefix=/home/edward/catkin_ws/devel
+
+Name: test_rosgraph
+Description: Description of test_rosgraph
+Version: 1.15.14
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

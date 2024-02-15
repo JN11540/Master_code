@@ -1,0 +1,8 @@
+<launch>
+  <arg name="AllObjectGroundTruth" default="GroundTruth.yaml" doc="Specify a yaml param file, e.g.: tag_poses.yaml"/>
+  <arg name="AllObjectPredict" default="Predict.yaml" doc="Specify a yaml param file, e.g.: tag_poses.yaml"/>
+  <node pkg="rgbd_object_detection" type="compute_IOU_v1.py" name="compute_IOU" output="screen">
+    <param name="AllObjectGroundTruth" value="$(find rgbd_object_detection)/config/$(arg AllObjectGroundTruth)"/>
+    <param name="AllObjectPredict" value="$(find rgbd_object_detection)/config/$(arg AllObjectPredict)"/>
+  </node>
+</launch>

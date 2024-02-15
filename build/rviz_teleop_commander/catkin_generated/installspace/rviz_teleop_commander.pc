@@ -1,0 +1,8 @@
+prefix=/home/edward/catkin_ws/install
+
+Name: rviz_teleop_commander
+Description: Description of rviz_teleop_commander
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

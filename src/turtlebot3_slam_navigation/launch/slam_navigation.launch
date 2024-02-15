@@ -1,0 +1,31 @@
+<launch>
+  <!-- slam -->
+  <!-- Arguments -->
+  <arg name="model" default="$(env TURTLEBOT3_MODEL)" doc="model type [burger, waffle, waffle_pi]"/>
+  <arg name="slam_methods" default="gmapping" doc="slam type [gmapping, cartographer, hector, karto, frontier_exploration]"/>
+  <arg name="configuration_basename" default="turtlebot3_lds_2d.lua"/>
+  <arg name="open_rviz" default="true"/>
+
+  <!-- TurtleBot3 -->
+  <include file="$(find turtlebot3_bringup)/launch/turtlebot3_remote.launch">
+    <arg name="model" value="$(arg model)" />
+    <!-- <arg name="multi_robot_name" default="turtlebot02"/> -->
+  </include>
+
+  <!-- SLAM: Gmapping, Cartographer, Hector, Karto, Frontier_exploration, RTAB-Map -->
+  <include file="$(find turtlebot3_slam)/launch/turtlebot3_$(arg slam_methods).launch">
+    <arg name="model" value="$(arg model)"/>
+    <arg name="configuration_basename" value="$(arg configuration_basename)"/>
+  </include>
+
+  <!-- navigation -->
+  <!-- move_base -->
+  <include file="$(find turtlebot3_navigation)/launch/move_base.launch">
+    <arg name="model" value="$(arg model)" />
+    <!-- <arg name="move_forward_only" value="$(arg move_forward_only)"/> -->
+  </include>
+  <!-- <node pkg="tf" type="static_transform_publisher" name="map_to_odom" args="0.0 0.0 0.0 0 0 0.0 /odom /turtlebot02/base_footprint 10"/> -->
+  <!-- <node pkg="tf" type="static_transform_publisher" name="base2camera" args="0.07 0 0.12 1.5707963 3.1415927 1.22173 /base_link /camera 100"/> -->
+</launch>
+
+
