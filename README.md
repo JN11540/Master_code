@@ -15,4 +15,10 @@
 6. 通過 Graham Scan 演算法、Rotating Calipers 演算法在物體表面上的點雲周圍生成三維邊界框以完成物體定位
 7. Robot Operating System 用於傳輸感測器數據至遠端電腦，以便在遠端電腦上實現感測器融合演算法的開發
 # 感測器融合演算法簡易圖
+# 環境
+Ubuntu 20.04, ROS Noetic
+# 套件 (Package)
+1. OpenCV, Eigen, PCL, Scipy, Shapely, ...
+2. Python==3.6.15, PyTorch==1.5, torchvision==0.6, pyyaml==5.1, detectron2==0.1.3
+
 
