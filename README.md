@@ -12,8 +12,9 @@
 3. 3D LiDAR 利用飛時測距 (ToF) 捕獲場景中的深度資訊，並且生成三維點雲，適合用於物體定位
 4. 通過 Cascade Mask R-CNN 深度網路，對相機影像中的物體進行辨識以及語義分割
 5. 通過相機針孔模型以及語義分割資訊，從三維點雲中提取物體表面上的點雲
-6. 通過 Graham Scan 演算法、Rotating Calipers 演算法在物體表面上的點雲周圍生成三維邊界框以完成物體定位
-7. Robot Operating System 用於傳輸感測器數據至遠端電腦，以便在遠端電腦上實現感測器融合演算法的開發
+6. 通過 Euclidean Clustering 分群後，移除殘留的背景點雲
+7. 通過 Graham Scan 演算法、Rotating Calipers 演算法在物體表面上的點雲周圍生成三維邊界框以完成物體定位
+8. Robot Operating System 用於傳輸感測器數據至遠端電腦，以便在遠端電腦上實現感測器融合演算法的開發
 # 感測器融合演算法簡易圖
 ![image](https://github.com/JN11540/Master_code/blob/master/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202024-02-17%20145114.png)
 # 環境
