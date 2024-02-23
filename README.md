@@ -22,10 +22,10 @@
 8. Robot Operating System 用於傳輸感測器數據至遠端電腦，以便在遠端電腦上實現感測器融合演算法的開發
 # 感測器融合演算法簡易圖
 ![image](https://github.com/JN11540/Master_code/blob/master/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202024-02-17%20145114.png)
-# 系統配置
-![image](https://github.com/JN11540/Master_code/blob/master/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202024-02-23%20205012.png)
 # 環境
 Ubuntu 20.04, ROS Noetic
+# 系統配置
+![image](https://github.com/JN11540/Master_code/blob/master/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202024-02-23%20205012.png)
 # 套件 (Package)
 1. OpenCV, Eigen, PCL, Scipy, Shapely, ...
 2. Python==3.6.15, PyTorch==1.5, torchvision==0.6, pyyaml==5.1, detectron2==0.1.3
