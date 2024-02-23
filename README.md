@@ -23,7 +23,7 @@
 # 感測器融合演算法簡易圖
 ![image](https://github.com/JN11540/Master_code/blob/master/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202024-02-17%20145114.png)
 # 系統配置
-![image](https://github.com/JN11540/Master_code/blob/master/螢幕擷取畫面 2024-02-23 205012.png)
+![image](https://github.com/JN11540/Master_code/blob/master/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202024-02-23%20205012.png)
 # 環境
 Ubuntu 20.04, ROS Noetic
 # 套件 (Package)
